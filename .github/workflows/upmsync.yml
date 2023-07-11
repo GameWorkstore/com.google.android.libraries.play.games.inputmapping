@@ -8,8 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      base: https://dl.google.com/games/registry/unity/com.google.external-dependency-manager/com.google.external-dependency-manager
-      version: 1.2.176
+      base: https://dl.google.com/games/registry/unity/com.google.android.libraries.play.games.inputmapping/com.google.android.libraries.play.games.inputmapping
+      version: 1.1.0-beta
     steps:
       - uses: actions/checkout@v2
       - name: Config
