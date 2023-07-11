@@ -11,7 +11,8 @@ jobs:
       base: https://dl.google.com/games/registry/unity/com.google.android.libraries.play.games.inputmapping/com.google.android.libraries.play.games.inputmapping
       version: 1.1.0-beta
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Config
         run: |
           git config --local user.email "contact@gameworkstore.com"
